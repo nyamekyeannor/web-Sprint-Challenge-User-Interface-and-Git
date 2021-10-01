@@ -90,8 +90,8 @@ nav a{
 }
 .articlecontainer{
     display: flex;
-    row-gap: 20px;
     flex-wrap: wrap;
+    width: 100%;
 }
 article a{
     text-decoration: none;
@@ -100,7 +100,12 @@ article a{
     border-radius: 6px;
 }
 article{
-    width: 50%;
+    width: 40%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 2%;
+    margin-left:10px;
+    flex: 1;
+    padding-bottom: 5%;
 }
 
 .top-content {
@@ -193,6 +198,7 @@ article a{
     padding: 3px;
     display: inline-block;
     margin-top: 3%;
+    
 }
 
 h4{
@@ -201,6 +207,7 @@ h4{
 .special{
     padding-bottom: 4%;
 }
+
 
 footer {
     width: 100%;
